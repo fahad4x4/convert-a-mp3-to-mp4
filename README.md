@@ -1,4 +1,4 @@
-the Bash script to convert multiple mp3 files to mp4 videos with a static image using FFmpeg and printing a message before and after the conversion
+This script will iterate over all the mp3 files in the current directory, and for each file, it will create an mp4 video file with the same name as the mp3 file, using a static image named "photo.png" as the video background. The output video file will be named with a prefix number followed by the original mp3 file name. Finally, a message will be printed before and after the conversion process to indicate its progress and completion.
 
 
 هذا سكريبت يستخدم أداة ffmpeg لتحويل ملفات الصوت بامتداد mp3 إلى ملفات فيديو بامتداد mp4، 
